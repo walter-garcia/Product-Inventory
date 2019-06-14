@@ -71,7 +71,7 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
+            'url' => $url,
             'host' => $host,
             'port' => env('DB_PORT', '5432'),
             'database' => $database,
