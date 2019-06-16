@@ -45,14 +45,14 @@
     </table>
 
     <div class="text-center">
-      <a href="{{ url('/') }}" class="m-4 btn btn-primary"><i class="fas fa-home"></i> Back to HomePage</a>
       <a href="{{ url('/products/new') }}" class="m-4 btn btn-primary">Register a Product</a>
+      <a href="{{ url('/') }}" class="m-4 btn btn-primary"><i class="fas fa-home"></i> Back to HomePage</a>
      </div>
   @else
     <div class="p-3 text-center alert alert-danger">You have no products registered</div>
     <div class="text-center">
-      <a href="{{ url('/') }}" class="m-4 btn btn-primary btn-lg"><i class="fas fa-home"></i> Back to HomePage</a>
       <a href="{{ url('/products/new') }}" class="m-4 btn btn-primary btn-lg">Register New Product</a>
+      <a href="{{ url('/') }}" class="m-4 btn btn-primary btn-lg"><i class="fas fa-home"></i> Back to HomePage</a>
     </div>
   @endif
 @endsection
