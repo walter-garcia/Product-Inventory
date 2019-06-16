@@ -2,6 +2,4 @@
 
 A humble CRUD.
 
-Check it out on the link below :)
-
-https://marcel-inventory-control.herokuapp.com/
+<a href="https://marcel-inventory-control.herokuapp.com/" target="_blank">Click here</a> and Check it out :)
