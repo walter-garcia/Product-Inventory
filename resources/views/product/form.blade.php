@@ -52,8 +52,8 @@
         </div>
 
         <div class="m-4 text-center">
-          <a href="{{ url('/') }}" class="m-3 btn btn-primary"><i class="fas fa-home"></i> Back to HomePage</a>
           <button type="submit" class="btn btn-primary">Register New Product</button>
+          <a href="{{ url('/') }}" class="m-3 btn btn-primary"><i class="fas fa-home"></i> Back to HomePage</a>
         </div>
   </form>
 @endsection
