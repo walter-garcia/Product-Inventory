@@ -5,6 +5,7 @@
 /vendor
 .env
 .phpunit.result.cache
+.ds_store
 Homestead.json
 Homestead.yaml
 npm-debug.log
